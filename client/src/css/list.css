@@ -1,0 +1,19 @@
+.content-container {
+  padding: 3rem;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.6rem;
+}
+
+.list-header .title {
+  font-size: x-large;
+  display: inline;
+  background-color: #1890ff;
+  margin: 0;
+  padding: 0.2rem;
+  border-radius: 2px;
+  border: 0.5px solid #2f54eb;
+}

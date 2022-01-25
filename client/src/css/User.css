@@ -1,0 +1,93 @@
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 50%;
+  padding: 1.3rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  background-color: #f0f5ff;
+}
+
+.title {
+  margin-top: 0;
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+
+.userIcon {
+  padding: 0 1rem;
+}
+
+/*------------------------------Profile---------------------------------------*/
+
+.profile-frame {
+  margin: 1.5rem;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.user-image {
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid ghostwhite;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.edit-btn {
+  float: right;
+  width: 10%;
+  top: -2rem;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.details-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.ant-card-head {
+  background-color: #f0f5ff;
+}
+
+.edit-form {
+  max-height: 60%;
+  position: relative;
+  background-color: #fff;
+  overflow-y: scroll;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.btns-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 0.5rem 0;
+}
+
+.card:first-child {
+  margin-bottom: 0.5rem;
+}

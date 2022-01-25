@@ -1,0 +1,122 @@
+.ant-card-head {
+  background-color: #7fffd4;
+}
+
+.profile-container {
+  margin: 1.5rem 4rem;
+}
+
+.side-card {
+  width: 15rem;
+}
+
+.panel {
+  margin: 3rem;
+}
+
+.communityForm {
+  margin: 4rem 8rem;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  padding: 2.5rem;
+}
+
+.name {
+  margin-left: 10%;
+  color: teal;
+  font-size: x-large;
+}
+
+.frame {
+  margin: 3rem;
+}
+
+.avatar {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.list-item {
+  margin: 0.5rem;
+  border: 0.3px solid #91d5ff;
+  border-bottom: 0.3px solid #91d5ff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  height: 9rem;
+}
+
+.list-item:last-child {
+  border-bottom: 0.3px solid #91d5ff;
+}
+
+.header-name {
+  margin: 1rem 25%;
+  font-size: xx-large;
+  display: inline;
+  color: #08979c;
+}
+
+.header-dropdown {
+  float: right;
+  background-color: cadetblue;
+  margin: 1rem 4rem;
+}
+
+.community-header-div1,
+.community-header-div2 {
+  margin: 0;
+  padding: 0;
+}
+
+.community-header-div1 {
+  height: 3rem;
+  background-color: turquoise;
+}
+
+.community-header-div2 {
+  height: 5rem;
+}
+
+.header-image {
+  width: 6rem;
+  height: 6rem;
+  display: block;
+  margin-left: 2rem;
+  margin-top: -7rem;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.tabs {
+  margin: 3rem 10rem;
+  padding: 1rem;
+}
+
+.member {
+  background-color: #bae7ff;
+  margin-bottom: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  height: 5rem;
+}
+
+.member-avatar {
+  margin-right: 10rem;
+}
+
+.manage-frame {
+  margin: 3rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  border-radius: 5px;
+}
+
+.members-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

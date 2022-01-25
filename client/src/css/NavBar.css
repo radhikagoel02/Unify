@@ -1,0 +1,45 @@
+body {
+  overflow: hidden;
+}
+
+.topNav {
+  font-size: x-large;
+  background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+  color: aliceblue;
+  padding: 0 1rem;
+  display: block;
+}
+
+.ant-layout-header {
+  padding: 0;
+}
+
+#brand h4 {
+  display: inline;
+  color: aliceblue;
+  margin-left: 0.3rem;
+  font-size: larger;
+}
+#user {
+  float: right;
+}
+
+.sideNav {
+  background-color: #40a9ff;
+  height: 90%;
+  color: aliceblue;
+}
+
+.btn-collapse {
+  width: 100%;
+  background-color: #0499f2;
+  background-image: linear-gradient(315deg, #0499f2 0%, #26f596 74%);
+  border: 0;
+  border-radius: 0;
+  height: 2.5rem;
+  text-align: left;
+  padding-left: 2rem;
+  font-size: larger;
+  color: aliceblue;
+}
